@@ -24,49 +24,61 @@ const app = {
             name: "Nevanda",
             singer: "Vicetone, Cozi Zuehlsdorff ",
             path: "./Nevada - Vicetone, Cozi Zuehlsdorff.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2018/06/19/7/b/9/3/1529382807600_500.jpg"
+            image: "./img/nevada.jpg"
         },
         {
             name: "Thunder",
             singer: "Gabry Ponte, LUM!X, Prezioso ",
             path: "./Thunder-NightcoreGabryPonteLUMXPrezioso-7052550.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2021/09/13/3/8/9/0/1631507287563_500.jpg"
+            image: "./img/thunder.jpg"
         },
         {
             name: "Attention",
             singer: "Charlie Puth",
             path: "./Attention - Charlie Puth.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2017/10/06/e/9/f/a/1507254139869_500.jpg"
+            image: "./img/attention.jpg"
         },
         {
             name: "One Call Away",
             singer: "Charlie Puth",
             path: "./TaiNhacHay.Biz - One Call Away.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2020/08/05/a/d/4/9/1596621129906_500.jpg"
+            image: "./img/one call away.jpg"
         },
         {
             name: "Walk Thru Fire",
             singer: "Vicetone, MeronRyan",
             path: "./WalkThruFire-VicetoneMeronRyan-5573260.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2018/08/06/f/5/6/1/1533518669570_500.jpg"
+            image: "./img/walk.jpg"
         },
         {
             name: "Don't Start Now",
             singer: "Dua Lipa",
             path: "./DonTStartNow-DuaLipa-6299636.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/2019/11/06/8/7/3/2/1573012426823_500.jpg"
+            image: "./img/dont start now.jpg"
         },
         {
             name: "Summer Time",
             singer: "Maggie, Nyan",
             path: "./Summertime-CinnamonsEveningCinema-6046288.mp3",
-            image: "https://i.ytimg.com/vi/mshYP5KgzOY/maxresdefault.jpg"
+            image: "./img/summer time.jpg"
         },
         {
             name: "Scared To Be Lonely",
             singer: "Martin Garrix",
             path: "./TaiNhacMienPhi.Net - Scared To Be Lonely.mp3",
-            image: "https://i.ytimg.com/vi/5iTRYnKL4HE/maxresdefault.jpg"
+            image: "./img/scared.jpg"
+        },
+        {
+            name: "Stay",
+            singer: "Zedd, Alessia Cara",
+            path: "./Stay-ZeddAlessiaCara-4905772.mp3",
+            image: "./img/stay.jpg"
+        },
+        {
+            name: "The Ocean",
+            singer: "Mike Perry",
+            path: "./TheOcean-NightcoreMikePerryShyMartin-6803992.mp3",
+            image: "./img/ocean.jpg"
         },
     ],
 
@@ -250,6 +262,7 @@ const app = {
         while (newIndex === this.currentIndex)
         this.currentIndex = newIndex;
         this.loadCurrentSong();
+        this.scrollToActiveSong();
         this.render();
     },
 

@@ -231,7 +231,7 @@ const app = {
                 behavior: 'smooth',
                 block: 'center'
             })
-        }, 500);
+        }, 300);
     },
 
     loadCurrentSong: function() {

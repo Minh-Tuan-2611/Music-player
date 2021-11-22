@@ -50,6 +50,24 @@ const app = {
             path: "./WalkThruFire-VicetoneMeronRyan-5573260.mp3",
             image: "https://avatar-ex-swe.nixcdn.com/song/2018/08/06/f/5/6/1/1533518669570_500.jpg"
         },
+        {
+            name: "Don't Start Now",
+            singer: "Dua Lipa",
+            path: "./DonTStartNow-DuaLipa-6299636.mp3",
+            image: "https://avatar-ex-swe.nixcdn.com/song/2019/11/06/8/7/3/2/1573012426823_500.jpg"
+        },
+        {
+            name: "Summer Time",
+            singer: "Maggie, Nyan",
+            path: "./Summertime-CinnamonsEveningCinema-6046288.mp3",
+            image: "https://i.ytimg.com/vi/mshYP5KgzOY/maxresdefault.jpg"
+        },
+        {
+            name: "Scared To Be Lonely",
+            singer: "Martin Garrix",
+            path: "./TaiNhacMienPhi.Net - Scared To Be Lonely.mp3",
+            image: "https://i.ytimg.com/vi/5iTRYnKL4HE/maxresdefault.jpg"
+        },
     ],
 
     render: function() {
